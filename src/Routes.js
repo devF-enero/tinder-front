@@ -5,6 +5,7 @@ import Login from './views/Login';
 import EventDetail from './views/EventDetail';
 import EventCreate from './views/EventCreate';
 import Authenticated from './utils/Authenticated';
+import AllMatches from './views/AllMatches';
 
 const logout = () => {
     localStorage.removeItem('token');
@@ -20,6 +21,7 @@ function Routes(){
             <Route exact path="/event/create" component={EventCreate}/>
             <Route exact path="/events/:id" component={EventDetail}/>
             <Route exact path="/logout" component={Authenticated(logout) }/>
+            <Route exact path="/AllMatches" component={AllMatches}/>
         </> 
     )
 }

@@ -49,6 +49,11 @@ class Navbar extends Component {
                       Logout
                     </Link>
                   </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/AllMatches">
+                      All Matches
+                    </Link>
+                  </li>
                 </>
               ) : (
                 <>
@@ -66,6 +71,11 @@ class Navbar extends Component {
                     <a className="nav-link" href="#">
                       Sign Up
                     </a>
+                  </li>
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/AllMatches">
+                      All Matches
+                    </Link>
                   </li>
                 </>
               )}
