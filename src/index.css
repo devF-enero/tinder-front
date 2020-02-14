@@ -1,0 +1,106 @@
+body {
+  padding-top: 56px;
+  background: #CCFBFE;
+}
+
+
+.tinder-card {
+  position: relative;
+
+  height: 450px;
+  width: 300px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+
+.img-tinder {
+  position: absolute;
+  height: 450px;
+  width: 300px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+  z-index: 10;
+}
+
+.tinder-info {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 20;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px 20px;
+  color: white;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 100%);
+
+ 
+}
+
+.info-1 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.info-2 {
+  font-size: 18px;
+  
+}
+.info-3 {
+  font-size: 16px;
+
+}
+
+.actions {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  padding: 18px;
+}
+
+.icon-container {
+    height: 50px;
+    width: 50px;
+    background: white;
+    font-size: 25px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-right: 20px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+
+.c-close {
+  color: black;
+}
+
+
+.c-heart {
+  color: rgba(245, 43, 80, 0.94);
+}
+
